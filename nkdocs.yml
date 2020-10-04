@@ -1,0 +1,19 @@
+site_name: UNP 阅读笔记
+site_url: "https://github.com/TaceyWong/unp-note"
+site_author: Tacey Wong
+edit_url: "https://github.com/TaceyWong/unp-note/edit/master/contents/"
+
+docs_dir: "contents"
+
+theme: united
+
+nav:
+    - 主页: index.md
+
+
+
+markdown_extensions:
+    - smarty
+    - toc:
+        permalink: True
+    - sane_lists
